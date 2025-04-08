@@ -1,0 +1,18 @@
+:root {
+    /* Custom Colors */
+    --primary-color: #FCEB94;
+    --primary-color-light: #FFFAE2;
+    --secondary-color: #6F90EB;
+    --secondary-color-light: #DBE2F5;
+    --third-color: #FF4B00;
+    --third-color-light: #FFA680;
+    --fourth-color: #DEF5DB;
+    --dark: black;
+    --light: white;
+    
+    /* Fonts - from style-tyle */
+    --logotype-font: "Roboto", sans-serif;
+    --headline-font: "Roboto", sans-serif;
+    --body-font: "Roboto", sans-serif;
+    --link-font: "Calibri", sans-serif;
+}
