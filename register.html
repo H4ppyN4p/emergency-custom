@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/custom.css" />
         <link rel="stylesheet" href="css/general.css" />
         <link rel="stylesheet" href="css/layout.css" />
-        <link rel="stylesheet" href="css/infographic.css" />
+        <link rel="stylesheet" href="css/register.css   " />
         <link rel="icon" type="image/png" href="img/fav.png" />
         <title>Emergency Site</title>
       </head>
@@ -25,34 +25,94 @@
                 </div>
             </nav>
         </header>
+
+    <!-- Alt style i body i register.css -->
+        <main>
+            
+            <div id="form-container">
+                <section id="form-section">
+                    <h2 id="form-header">Indmeld nyt falsk statement!</h2>
+                    <p>Her kan du indmelde nye faldske statements der er med til at nedbryde demokoratiet. Er månen en gul ost? Angriber blæksprutterne fra havet? Spiser de kattene? Her kan alle de faldske udsagn indmeldes!</p>
+
+
+                    <form id="notify-form" action="" onsubmit="return false">
+                        <fieldset>
+
+                            <legend>Hvem lavede udsagnet</legend>
+
+                            <div class="form-group">
+                                <label for="name">Hvem har lavet udsagnet?</label>
+                                <input type="text" id="name" name="name">
+                            </div>
+
+                            <div class="form-group">
+                                <legend>er det en offentlig person?</legend>
+                                <label for="is-famous">Yes</label>
+                                <input type="checkbox" name="is-famous" id="is-famous">
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Forklar lidt om udsagnet</legend>
+                            <div class="form-group">
+                                <label for="platform"> Hvor er det faldske udsagn blevet lavet?</label>
+                                <select name="platform" id="platform">
+                                    <option value="Twitter">Twitter</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="Press Conference">Pressekonference</option>
+                                    <option value="Truth Social">Truth Social</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="link">Link til udsagnet</label>
+                                <input type="text" name="link" id="link">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="confidence">Hvor sikker er du på at udsagnet er falsk?</label>
+                                <input type="range" name="confidence" id="confidence">
+
+                            </div>
+                        </fieldset>
+
+                    </form>
+                </section>
+                
+                <section id="summary-section">
+                    <h2 id="summary-header">Summary</h2>
+                </section>
+                
+            </div>
+        </main>
         
     <!-- Alt style i footeren i general.css -->
-    <footer>
-        <nav class="footer-nav">
-        <ul>
-            <li><a href="">link</a></li>
-            <li><a href="">link</a></li>
-            <li><a href="">link</a></li>
-            <li><a href="">link</a></li>
-        </ul>
-        </nav>
-        <nav class="footer-nav">
-        <ul>
-            <li><a href="">link</a></li>
-            <li><a href="">link</a></li>
-            <li><a href="">link</a></li>
-            <li><a href="">link</a></li>
-        </ul>
-        </nav>
-        <nav class="footer-nav">
-        <ul>
-            <li><a href="">link</a></li>
-            <li><a href="">link</a></li>
-            <li><a href="">link</a></li>
-            <li><a href="">link</a></li>
-        </ul>
-        </nav>
-    </footer>
+        <footer>
+            <nav class="footer-nav">
+            <ul>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+            </ul>
+            </nav>
+            <nav class="footer-nav">
+            <ul>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+            </ul>
+            </nav>
+            <nav class="footer-nav">
+            <ul>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+            </ul>
+            </nav>
+        </footer>
 
     <script src=""></script>
     </body>
