@@ -1,0 +1,78 @@
+
+#form-container {
+    display: grid;
+    grid-template-columns: 9fr 7fr;
+}
+
+
+#form-section {
+    width: 90%;
+    margin: auto;
+    background-color: red;
+    padding: 20px;
+}
+
+fieldset {
+    background-color: cyan;
+    border: 2px solid purple;
+}
+
+legend {
+    background-color: wheat;
+}
+
+#summary-section {
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    background-color: blue;
+}
+
+.form-group {
+    display: 'grid';
+    grid-template-columns: 1fr;
+    width: 90%;
+    background-color: green;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    border: 2px solid orange;
+}
+
+.form-group input, select {
+    display: block;
+    
+}
+
+#confidence-text {
+    display: flex; 
+    justify-content: space-between;
+}
+
+#confidence {
+    width: 100%;
+}
+
+
+
+#is-famous {
+    display: inline;
+}
+
+
+
+#summary-header {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    background-color: yellow;
+}
+
+.summary-subsection {
+    margin: 20px 0;
+    border: 2px solid red;
+}
+
+.hide {
+    visibility: hidden;
+}

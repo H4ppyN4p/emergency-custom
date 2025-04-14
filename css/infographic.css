@@ -74,6 +74,23 @@
     margin-bottom: 30px;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    animation: fadeIn 2s;
+}
+
 .aside-box {
     width: 80%;
     margin: auto;
