@@ -8,7 +8,6 @@
 #form-section {
     width: 90%;
     margin: auto;
-    height: 500px;
     background-color: red;
     padding: 20px;
 }
@@ -45,13 +44,35 @@ legend {
     
 }
 
+#confidence-text {
+    display: flex; 
+    justify-content: space-between;
+}
+
+#confidence {
+    width: 100%;
+}
+
+
+
 #is-famous {
     display: inline;
 }
+
+
 
 #summary-header {
     width: 90%;
     margin: 10px auto;
     text-align: center;
     background-color: yellow;
+}
+
+.summary-subsection {
+    margin: 20px 0;
+    border: 2px solid red;
+}
+
+.hide {
+    visibility: hidden;
 }

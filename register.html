@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/custom.css" />
-        <link rel="stylesheet" href="css/general.css" />
-        <link rel="stylesheet" href="css/layout.css" />
-        <link rel="stylesheet" href="css/register.css   " />
-        <link rel="icon" type="image/png" href="img/fav.png" />
-        <title>Emergency Site</title>
-      </head>
-
-    <!-- Body og header style i general.css -->
-    <body>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/register.css" />
+    <link rel="icon" type="image/png" href="img/fav.png" />
+    <title>Emergency Site</title>
+</head>
+<body>
+      <!-- Body og header style i general.css -->
+      <body>
         <header>
             <nav>
                 <div class="nav-element" id="nav-left">
@@ -64,23 +64,64 @@
                                 </select>
                             </div>
 
+
                             <div class="form-group">
                                 <label for="link">Link til udsagnet</label>
                                 <input type="text" name="link" id="link">
                             </div>
 
                             <div class="form-group">
-                                <label for="confidence">Hvor sikker er du på at udsagnet er falsk?</label>
-                                <input type="range" name="confidence" id="confidence">
+                                <label for="confidence">Hvor sikker er du på at udsagnet er falsk?  <span id="confidence-value">50</span> </label>
+                                <div id="confidence-text">
+                                    <p>ikke sikker overhovedeg</p>
+                                    <p>fuldkommen sikker</p>
+                                </div>
 
+                                <input type="range" name="confidence" id="confidence">
+                               
                             </div>
                         </fieldset>
 
+                        <input id="submit-button" type="submit">
                     </form>
                 </section>
                 
                 <section id="summary-section">
                     <h2 id="summary-header">Summary</h2>
+                    <article id="summary-recap" class="hide">
+
+                        <div class="summary-subsection">
+                            <h3>Hvem?</h3>
+                            <p id="name-summary">/</p>
+                        </div>
+
+                        <div class="summary-subsection">
+                            <h3>Er de en offentlig person?</h3>
+                            <p id="is-famous-summary">/</p>
+                        </div>
+
+                        <div class="summary-subsection">
+                            <h3>Hvor blev det sagt?</h3>
+                            <p id="platform-summary">/</p>
+                        </div>
+
+                        <div class="summary-subsection">
+                            <h3>Link:</h3>
+                            <p id="link-summary">/</p>
+                        </div>
+
+                        <div class="summary-subsection">
+                            <h3>Hvor sikker er du på at det er falsk?</h3>
+                            <p id="confidence-summary">/</p>
+                        </div>
+                        
+                        <div class="summary-subsection">
+                            <p>Er informationen korrekt?</p>
+                            <button onclick="sendInfo()">
+                                Submit
+                            </button>
+                        </div>
+                    </article>
                 </section>
                 
             </div>
@@ -114,6 +155,6 @@
             </nav>
         </footer>
 
-    <script src=""></script>
-    </body>
+        <script src="js/register.js"></script>
+</body>
 </html>
