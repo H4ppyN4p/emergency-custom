@@ -5,6 +5,15 @@ img {
     display: block;
 }
 
+dialog {
+    margin: auto;
+}
+
+dialog::backdrop {
+    background-color: var(--dark);
+    opacity: 50%;
+}
+
 
 #index-banner {
     width: 100%;

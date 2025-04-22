@@ -48,9 +48,18 @@
                         <div class="card-text">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus blanditiis possimus ab fuga velit. Tempora nam officia tempore vitae rerum?</p>
                         </div>
-                        <button class="card-button">
+                        <button id="show-dialog-one" class="card-button">
                                 Læs mere her // >
                         </button>
+
+                        <dialog id="dialog-one">
+                            <div>
+                                <p>some text here</p>
+                            </div>
+                            <form method="dialog" action="">
+                                <button id="close-dialog-one">luk dialog 1</button>
+                            </form>
+                        </dialog>
                     </div>
                 </div>
 
@@ -74,9 +83,19 @@
                         <img class="article-image" src="/images/solid-color-image.png" alt="">
                     </div>
 
-                    <button class="article-button">
+                    <button id="show-article-dialog-one" class="article-button">
                             læs mere
                     </button>
+
+                    <dialog id="article-dialog-one" >
+                        <div>
+                            <p>some article 1 text here</p>
+                        </div>
+                        <form method="dialog" action="">
+                            <button id="close-article-dialog-one">luk article dialog 1</button>
+                        </form>
+                    </dialog>
+
                 </article>
                 
                 <article class="article-card"> 
@@ -91,9 +110,19 @@
                         <img class="article-image" src="/images/solid-color-image.png" alt="">
                     </div>
 
-                    <button class="article-button">
+                    <button id="show-article-dialog-two" class="article-button">
                             læs mere
                     </button>
+
+                    <dialog id="article-dialog-two">
+                        <div>
+                            <p>some article 2 text here</p>
+                        </div>
+                        <form method="dialog" action="">
+                            <button id="close-article-dialog-two">luk article dialog 2</button>
+                        </form>
+                    </dialog>
+
                 </article>
             </section>
         </div>
@@ -127,6 +156,6 @@
         </nav>
     </footer>
 
-    <script src=""></script>
+    <script src="/js/index.js"></script>
     </body>
 </html>
