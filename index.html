@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/custom.css" />
         <link rel="stylesheet" href="css/general.css" />
         <link rel="stylesheet" href="css/layout.css" />
-        <link rel="stylesheet" href="css/infographic.css" />
+        <link rel="stylesheet" href="css/index.css" />
         <link rel="icon" type="image/png" href="img/fav.png" />
         <title>Emergency Site</title>
       </head>
@@ -25,6 +25,108 @@
                 </div>
             </nav>
         </header>
+
+    <!-- Alt style i Index i index.css -->
+
+    <main>
+        <article id="index-banner">
+            
+        </article>
+
+        <div id="index-container">
+
+            <section id="cards-section">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/images/solid-color-image.png" alt="">
+                    </div>
+
+                    <div class="card-info">
+                        <div class="card-banner">
+                            <h2 class="card-header">H2 overskrift</h2>
+                        </div>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus blanditiis possimus ab fuga velit. Tempora nam officia tempore vitae rerum?</p>
+                        </div>
+                        <button id="show-dialog-one" class="card-button">
+                                Læs mere her // >
+                        </button>
+
+                        <dialog id="dialog-one">
+                            <div>
+                                <p>some text here</p>
+                            </div>
+                            <form method="dialog" action="">
+                                <button id="close-dialog-one">luk dialog 1</button>
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+
+            
+            </section>
+
+            <section id="article-section">
+                <div id="article-banner">
+                    <h2 id="banner-text">Breaking news</h2>
+                </div>
+
+                <article class="article-card"> 
+                    <h3 class="article-header">
+                        H3 overskrift
+                    </h3>
+                    <p class="article-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis animi laborum tempora rerum facere sed earum beatae quia quas.
+                    </p>
+
+                    <div class="article-image-container">
+                        <img class="article-image" src="/images/solid-color-image.png" alt="">
+                    </div>
+
+                    <button id="show-article-dialog-one" class="article-button">
+                            læs mere
+                    </button>
+
+                    <dialog id="article-dialog-one" >
+                        <div>
+                            <p>some article 1 text here</p>
+                        </div>
+                        <form method="dialog" action="">
+                            <button id="close-article-dialog-one">luk article dialog 1</button>
+                        </form>
+                    </dialog>
+
+                </article>
+                
+                <article class="article-card"> 
+                    <h3 class="article-header">
+                        H3 overskrift
+                    </h3>
+                    <p class="article-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis animi laborum tempora rerum facere sed earum beatae quia quas.
+                    </p>
+
+                    <div class="article-image-container">
+                        <img class="article-image" src="/images/solid-color-image.png" alt="">
+                    </div>
+
+                    <button id="show-article-dialog-two" class="article-button">
+                            læs mere
+                    </button>
+
+                    <dialog id="article-dialog-two">
+                        <div>
+                            <p>some article 2 text here</p>
+                        </div>
+                        <form method="dialog" action="">
+                            <button id="close-article-dialog-two">luk article dialog 2</button>
+                        </form>
+                    </dialog>
+
+                </article>
+            </section>
+        </div>
+    </main>
         
     <!-- Alt style i footeren i general.css -->
     <footer>
@@ -54,6 +156,6 @@
         </nav>
     </footer>
 
-    <script src=""></script>
+    <script src="/js/index.js"></script>
     </body>
 </html>
