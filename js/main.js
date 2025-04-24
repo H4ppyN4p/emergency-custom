@@ -14,15 +14,15 @@ function infoChange() {
 
     switch (this.id) {
         case 'head-circle':
-            document.querySelector('#info-text-content').textContent =  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem consequatur nihil eum ad recusandae doloremque harum reiciendis sit assumenda unde, libero possimus natus incidunt? Culpa numquam nisi velit, nemo saepe accusantium porro quas ipsum dolor modi sint nulla iste cumque. Iure sed debitis unde quos ex architecto quaerat minus commodi"
+            document.querySelector('#info-text-content').textContent =  "Hvis der kommer et udsagn som Trump selv har fundet på, så er det nok falskt"
             console.log('clicked head circle')
             break
         case 'hand-circle':
-            document.querySelector('#info-text-content').textContent =  "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eius alias exercitationem modi, harum eveniet dolorum vero dignissimos vel atque, delectus mollitia nesciunt quidem ipsum qui obcaecati in consequuntur tenetur reiciendis eaque? Velit beatae itaque et totam fugit assumenda nisi."
+            document.querySelector('#info-text-content').textContent =  "Hvis Trump skriver noget på sociale medier, så er det nok falsk"
             console.log('clicked hand circle')
             break
         case 'tie-circle':
-            document.querySelector('#info-text-content').textContent =  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sequi officiis suscipit consequatur culpa sed, aperiam et repudiandae. Quia, voluptates."
+            document.querySelector('#info-text-content').textContent =  "Hvis Trump siger noget højt så er det nok falsk"
             console.log('tie circle clicked')
             break
     }

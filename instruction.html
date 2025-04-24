@@ -4,7 +4,8 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/custom.css" />
+        <link id="theme" rel="stylesheet" href="css/custom.css" />
+
         <link rel="stylesheet" href="css/general.css" />
         <link rel="stylesheet" href="css/layout.css" />
         <link rel="stylesheet" href="css/infographic.css" />
@@ -17,24 +18,33 @@
     <header>
         <nav>
             <div class="nav-element" id="nav-left">
-                <a id="logo" href="index.html">Zombie Invasion</a>
+                <a id="logo" href="index.html">DEMOCR!S!S</a>
             </div>
 
             <div class="nav-element" id="nav-right">
-                
+                <a href="instruction.html">
+                    <button class="nav-button">Instrukser</button>
+                </a>
+                <a href="register.html">
+                    <button class="nav-button">Indberæt</button>
+                </a>
+
+                <label class="switch">
+                    <input id="dark-mode-input" type="checkbox">
+                    <span class="slider"></span>
+                </label>
             </div>
         </nav>
     </header>
-    
     <!-- Alt style i main i infographic.css-->
     <main>
         <section id="header-section">
             <div id="header-text">
-                <h1 id="header-text-h1">Nærkontakt med en zombie</h1>
+                <h1 id="header-text-h1">Lyver Trump?</h1>
             </div>
             <div id="header-sub-text">
                 <h2 id="header-text-h2">
-                    3 overlevelses-strategier, hvis du kommer tæt på en zombie
+                    3 tegn på at Trump lyver
                 </h2>
             </div>
 
@@ -87,7 +97,7 @@
             <section id="info-text">
                 <h2>Hovedet</h2>
                 <article id="info-text-container">
-                    <p id="info-text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem consequatur nihil eum ad recusandae doloremque harum reiciendis sit assumenda unde, libero possimus natus incidunt? Culpa numquam nisi velit, nemo saepe accusantium porro quas ipsum dolor modi sint nulla iste cumque. Iure sed debitis unde quos ex architecto quaerat minus commodi.</p>
+                    <p id="info-text-content">Hvis der kommer et udsagn som Trump selv har fundet på, så er det nok falskt</p>
                 </article>
                 <aside id="setup" class="aside-box"></aside>
                 <aside id="payoff" class="aside-box"></aside>
@@ -124,5 +134,6 @@
       </footer>
     
     <script src="js/main.js"></script>
+    <script src="js/general.js"></script>
     </body>
 </html>
