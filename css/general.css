@@ -9,6 +9,7 @@ body {
     background-color: var(--primary-color);
 }
 
+
 header {
     height: 107px;
 }
@@ -17,6 +18,10 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100%;
+}
+
+main {
+    min-height: 100vh;
 }
 
 
@@ -43,6 +48,7 @@ a {
 }
 
 footer {
+   
     margin-top: 20px;
     padding: 20px 0;
     display: grid;
